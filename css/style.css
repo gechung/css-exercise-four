@@ -26,22 +26,22 @@ div {
   padding: 25px 20px;
 }
 
-@media screen and (min-width: 991px) {
-   div {
+@media screen and (min-width: 575px) {
+  div {
     background-color: #dadada;
-    float: center;
+    float: left;
     margin: 1% auto;
     width: 48%;
     padding: 25px 20px;
   }
 }
 
-@media screen and (min-width: 575px) {
-  div {
+@media screen and (min-width: 991px) {
+   div {
     background-color: #dadada;
-    float: center;
+    float: left;
     margin: 1% auto;
-    width: 48%;
+    width: 25%;
     padding: 25px 20px;
   }
 }
@@ -61,20 +61,20 @@ h3 {
   font-family: "Arial"
 }
 
-@media screen and (min-width: 991px) {
-  h1, h3 {
-   margin: 1% auto;
-   text-align: center;
-   font-family: Arial;
-   width: 50%;
-  }
-}
-
 @media screen and (min-width: 575px) {
    h1, h3 {
     margin: 1% auto;
     text-align: center;
     font-family: Arial;
-    width: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  h1, h3 {
+   margin: 1% auto;
+   text-align: center;
+   font-family: Arial;
+   width: 100%;
   }
 }
