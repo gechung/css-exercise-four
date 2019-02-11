@@ -3,23 +3,21 @@
 }
 
 body {
+  background-image: url(baku.jpg), url(london.png), url(madrid.jpg), url(rome.jpg);
+}
+
+body {
   background-color: #dadada;
   font-size: 20px;
 }
 
 .container {
   margin: 20px auto;
-  width: 50%;
-  height: auto;
-}
-
-.baku-pic, .london-pic, .rome-pic, .madrid-pic {
-  max-width: 100%;
+  width: auto;
   height: auto;
 }
 
 div {
-  background-color: #dadada;
   float: center;
   margin: 1% auto;
   width: 100%;
