@@ -3,29 +3,46 @@
 }
 
 body {
-  background-image: url(baku.jpg), url(london.png), url(madrid.jpg), url(rome.jpg);
-}
-
-body {
   background-color: #dadada;
   font-size: 20px;
 }
 
+.london {
+  background-image: url(images/london.png);
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+
+.baku {
+  background-image: url(images/baku.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+
+.madrid {
+  background-image: url(images/madrid.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 500px
+}
+
+.rome {
+  background-image: url(images/rome.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+
 .container {
-  margin: 20px auto;
-  width: auto;
+  margin: 1% auto;
+  width: 100%;
   height: auto;
 }
 
-div {
-  float: center;
-  margin: 1% auto;
-  width: 100%;
-  padding: 25px 20px;
-}
-
 @media screen and (min-width: 575px) {
-  div {
+  .london, .baku, .madrid, .rome {
     background-color: #dadada;
     float: left;
     margin: 1% auto;
@@ -35,7 +52,7 @@ div {
 }
 
 @media screen and (min-width: 991px) {
-   div {
+   .london, .baku, .madrid, .rome {
     background-color: #dadada;
     float: left;
     margin: 1% auto;
