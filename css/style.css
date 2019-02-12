@@ -9,31 +9,31 @@ body {
 }
 
 .london {
-  background-image: url(images/london.png);
+  background-image: url(../images/london.png);
   background-size: cover;
-  height: 500px;
-  width: 500px;
+  height: 320px;
+  width: 320px;
 }
 
 .baku {
-  background-image: url(images/baku.jpg);
+  background-image: url(../images/baku.jpg);
   background-size: cover;
-  height: 500px;
-  width: 500px;
+  height: 320px;
+  width: 320px;
 }
 
 .madrid {
-  background-image: url(images/madrid.jpg);
+  background-image: url(../images/madrid.jpg);
   background-size: cover;
-  height: 500px;
-  width: 500px
+  height: 320px;
+  width: 320px
 }
 
 .rome {
-  background-image: url(images/rome.jpg);
+  background-image: url(../images/rome.jpg);
   background-size: cover;
-  height: 500px;
-  width: 500px;
+  height: 320px;
+  width: 320px;
 }
 
 .container {
@@ -47,18 +47,6 @@ body {
   float: left;
   margin: 1% 1%;
   padding: 25px 20px;
-}
-
-@media screen and (min-width: 575px) {
-  .london, .baku, .madrid, .rome {
-    width: 46%;
-  }
-}
-
-@media screen and (min-width: 991px) {
-   .london, .baku, .madrid, .rome {
-    width: 23%;
-  }
 }
 
 h1 {
@@ -83,6 +71,9 @@ h3 {
     font-family: Arial;
     width: 100%;
   }
+  .london, .baku, .madrid, .rome {
+    width: 46%;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -91,5 +82,8 @@ h3 {
    text-align: center;
    font-family: Arial;
    width: 100%;
+  }
+  .london, .baku, .madrid, .rome {
+    width: 23%;
   }
 }
