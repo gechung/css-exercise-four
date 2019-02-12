@@ -5,6 +5,7 @@
 body {
   background-color: #dadada;
   font-size: 20px;
+  margin: 100px;
 }
 
 .london {
@@ -41,23 +42,22 @@ body {
   height: auto;
 }
 
+.london, .baku, .madrid, .rome {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 1%;
+  padding: 25px 20px;
+}
+
 @media screen and (min-width: 575px) {
   .london, .baku, .madrid, .rome {
-    background-color: #dadada;
-    float: left;
-    margin: 1% auto;
-    width: 48%;
-    padding: 25px 20px;
+    width: 46%;
   }
 }
 
 @media screen and (min-width: 991px) {
    .london, .baku, .madrid, .rome {
-    background-color: #dadada;
-    float: left;
-    margin: 1% auto;
-    width: 25%;
-    padding: 25px 20px;
+    width: 23%;
   }
 }
 
