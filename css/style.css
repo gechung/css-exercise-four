@@ -5,21 +5,20 @@
 body {
   background-color: #dadada;
   font-size: 20px;
-  margin: 100px;
 }
 
 .london {
   background-image: url(../images/london.png);
   background-size: cover;
   height: 320px;
-  width: 320px;
+  width: 100%;
 }
 
 .baku {
   background-image: url(../images/baku.jpg);
   background-size: cover;
   height: 320px;
-  width: 320px;
+  width: 100%;
 }
 
 .madrid {
@@ -33,7 +32,7 @@ body {
   background-image: url(../images/rome.jpg);
   background-size: cover;
   height: 320px;
-  width: 320px;
+  width: 100%;
 }
 
 .container {
