@@ -25,7 +25,7 @@ body {
   background-image: url(../images/madrid.jpg);
   background-size: cover;
   height: 320px;
-  width: 320px
+  width: 100%;
 }
 
 .rome {
